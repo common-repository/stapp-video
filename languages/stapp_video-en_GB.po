@@ -1,0 +1,254 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: stapp-video\n"
+"POT-Creation-Date: 2021-03-15 12:05+0100\n"
+"PO-Revision-Date: 2021-03-15 12:06+0100\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.2\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e;esc_html_e\n"
+"Last-Translator: STApp Professional GmbH <development@stapp-professional."
+"de>\n"
+"Language: en_GB\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: admin/admin.php:22 admin/admin.php:33
+msgid "Video Overview"
+msgstr ""
+
+#: admin/admin.php:23
+msgid "Video"
+msgstr ""
+
+#: admin/admin.php:34
+msgid "Overview"
+msgstr ""
+
+#: admin/admin.php:45
+msgid "Setup new Video"
+msgstr ""
+
+#: admin/admin.php:46
+msgid "New"
+msgstr ""
+
+#: admin/menu/CreateSubMenuHTML.php:64 admin/menu/OverviewSubMenuHTML.php:37
+msgid "Getting started"
+msgstr ""
+
+#: admin/menu/CreateSubMenuHTML.php:68 admin/menu/OverviewSubMenuHTML.php:41
+msgid "If you have any question about the Configuration, please read the"
+msgstr ""
+
+#: admin/menu/CreateSubMenuHTML.php:68 admin/menu/OverviewSubMenuHTML.php:41
+msgid "Documentation"
+msgstr ""
+
+#: admin/menu/CreateSubMenuHTML.php:68 admin/menu/OverviewSubMenuHTML.php:41
+msgid "or visit our "
+msgstr ""
+
+#: admin/menu/CreateSubMenuHTML.php:68 admin/menu/OverviewSubMenuHTML.php:41
+msgid "Forum"
+msgstr ""
+
+#: admin/menu/CreateSubMenuHTML.php:71 admin/menu/OverviewSubMenuHTML.php:44
+msgid "You will find a lot of answers from other users"
+msgstr ""
+
+#: admin/menu/CreateSubMenuHTML.php:74 admin/menu/OverviewSubMenuHTML.php:47
+msgid "If you want to report a bug, please contact our "
+msgstr ""
+
+#: admin/menu/CreateSubMenuHTML.php:74 admin/menu/OverviewSubMenuHTML.php:47
+msgid "Support Team."
+msgstr ""
+
+#: admin/menu/CreateSubMenuHTML.php:77 admin/menu/OverviewSubMenuHTML.php:50
+msgid "If you interest about more custom features, please use our "
+msgstr ""
+
+#: admin/menu/CreateSubMenuHTML.php:77 admin/menu/OverviewSubMenuHTML.php:50
+msgid "Professional Service."
+msgstr ""
+
+#: admin/menu/CreateSubMenuHTML_Form.php:11
+#: admin/menu/CreateSubMenuHTML_Form.php:405
+msgid "Save"
+msgstr ""
+
+#: admin/menu/CreateSubMenuHTML_Form.php:15
+msgid "Configuration"
+msgstr ""
+
+#: admin/menu/CreateSubMenuHTML_Form.php:22
+msgid "Title:"
+msgstr ""
+
+#: admin/menu/CreateSubMenuHTML_Form.php:24
+msgid "ShortCode:"
+msgstr ""
+
+#: admin/menu/CreateSubMenuHTML_Form.php:42
+msgid "Muted will also activated. Some Browser are blocked unmuted videos."
+msgstr ""
+
+#: admin/menu/CreateSubMenuHTML_Form.php:46
+msgid "Autoplay:"
+msgstr ""
+
+#: admin/menu/CreateSubMenuHTML_Form.php:59
+msgid "Loop:"
+msgstr ""
+
+#: admin/menu/CreateSubMenuHTML_Form.php:75
+msgid "Mute:"
+msgstr ""
+
+#: admin/menu/CreateSubMenuHTML_Form.php:92
+msgid "Controls:"
+msgstr ""
+
+#: admin/menu/CreateSubMenuHTML_Form.php:106
+msgid "Play Inline:"
+msgstr ""
+
+#: admin/menu/CreateSubMenuHTML_Form.php:120
+msgid "Preload:"
+msgstr ""
+
+#: admin/menu/CreateSubMenuHTML_Form.php:135
+msgid "Fallback Image"
+msgstr ""
+
+#: admin/menu/CreateSubMenuHTML_Form.php:143
+#: admin/menu/CreateSubMenuHTML_Form.php:180
+#: admin/menu/CreateSubMenuHTML_Form.php:231
+#: admin/menu/CreateSubMenuHTML_Form.php:279
+#: admin/menu/CreateSubMenuHTML_Form.php:325
+#: admin/menu/CreateSubMenuHTML_Form.php:372
+msgid "File:"
+msgstr ""
+
+#: admin/menu/CreateSubMenuHTML_Form.php:155
+#: admin/menu/CreateSubMenuHTML_Form.php:191
+#: admin/menu/CreateSubMenuHTML_Form.php:242
+#: admin/menu/CreateSubMenuHTML_Form.php:289
+#: admin/menu/CreateSubMenuHTML_Form.php:336
+#: admin/menu/CreateSubMenuHTML_Form.php:380
+msgid "clear"
+msgstr ""
+
+#: admin/menu/CreateSubMenuHTML_Form.php:172
+msgid "Desktop Video 4K"
+msgstr ""
+
+#: admin/menu/CreateSubMenuHTML_Form.php:207
+#: admin/menu/CreateSubMenuHTML_Form.php:257
+#: admin/menu/CreateSubMenuHTML_Form.php:303
+#: admin/menu/CreateSubMenuHTML_Form.php:350
+#: admin/menu/CreateSubMenuHTML_Form.php:394
+msgid "Custom Breakpoint:"
+msgstr ""
+
+#: admin/menu/CreateSubMenuHTML_Form.php:220
+msgid "Desktop Video HD"
+msgstr ""
+
+#: admin/menu/CreateSubMenuHTML_Form.php:270
+msgid "Desktop Video"
+msgstr ""
+
+#: admin/menu/CreateSubMenuHTML_Form.php:316
+msgid "Tablet Video"
+msgstr ""
+
+#: admin/menu/CreateSubMenuHTML_Form.php:363
+msgid "Mobile Phone Video"
+msgstr ""
+
+#: admin/menu/CreateSubMenuHTML_ProPage.php:35
+msgid "Probiere Video Pro"
+msgstr ""
+
+#: admin/menu/CreateSubMenuHTML_ProPage.php:47
+msgid "PRO"
+msgstr ""
+
+#: admin/menu/CreateSubMenuHTML_ProPage.php:50
+msgid "Video Plugin"
+msgstr ""
+
+#: admin/menu/CreateSubMenuHTML_ProPage.php:54
+msgid "4,99"
+msgstr ""
+
+#: admin/menu/CreateSubMenuHTML_ProPage.php:55
+msgid "€"
+msgstr ""
+
+#: admin/menu/CreateSubMenuHTML_ProPage.php:68
+msgid "Responsive optimierte Darstellung deiner Videos auf allen Endgeräten"
+msgstr ""
+
+#: admin/menu/CreateSubMenuHTML_ProPage.php:76
+msgid "Kinderleichtes Handling, keine Programmierkenntnisse erforderlich"
+msgstr ""
+
+#: admin/menu/CreateSubMenuHTML_ProPage.php:84
+msgid ""
+"Weise jedem Endgerättyp (Desktop, Tablet oder Smartphone) eine Video-Datei "
+"mit der passenden Größe zu"
+msgstr ""
+
+#: admin/menu/CreateSubMenuHTML_ProPage.php:92
+msgid "Deine Videos sind damit automatisch SEO-freundlich & Responsive"
+msgstr ""
+
+#: admin/menu/CreateSubMenuHTML_ProPage.php:100
+msgid "Forum oder E-Mail-Support"
+msgstr ""
+
+#: admin/menu/CreateSubMenuHTML_ProPage.php:108
+msgid "Unbegrenzte Updates auf Lebenszeit"
+msgstr ""
+
+#: admin/menu/CreateSubMenuHTML_ProPage.php:117
+msgid "Unbegrenzt viele Shortcodes / Videos"
+msgstr ""
+
+#: admin/menu/CreateSubMenuHTML_ProPage.php:126
+msgid "Unbegrenzt viele Seiten"
+msgstr ""
+
+#: admin/menu/CreateSubMenuHTML_ProPage.php:135
+msgid "1 Jahr Premium Support"
+msgstr ""
+
+#: admin/menu/CreateSubMenuHTML_ProPage.php:145
+msgid "KEIN ABO! NUR EINMAL KAUFEN UND UNBEGRENZT NUTZEN!"
+msgstr ""
+
+#: admin/menu/CreateSubMenuHTML_ProPage.php:153
+msgid "Jetzt Informieren"
+msgstr ""
+
+#: admin/menu/OverviewSubMenuHTML.php:58
+msgid "New Video"
+msgstr ""
+
+#: admin/menu/OverviewSubMenuHTML.php:68
+msgid "General Configuration"
+msgstr ""
+
+#: admin/menu/OverviewSubMenuHTML_Message.php:32
+msgid "No configuration available yet."
+msgstr ""
+
+#: admin/menu/OverviewSubMenuHTML_Message.php:42
+msgid "Please click on \"New Video\" to start a new configuration."
+msgstr ""

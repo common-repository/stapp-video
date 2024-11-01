@@ -1,0 +1,221 @@
+
+.overlay_close_container{
+    display: flex;
+    justify-content: flex-end;
+    margin: 40px;
+}
+
+.overlay_main_button{
+    line-height: 1em;
+    letter-spacing: 5px;
+    color: #00d4ff;
+    border-style: solid;
+    border-width: 5px 5px 5px 5px;
+    border-radius: 350px 350px 350px 350px;
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.4);
+    padding: 20px 35px 20px 35px;
+    text-decoration: none;
+    position: relative;
+    top: 50%;
+    width: 200px;
+}
+
+.overlay_border{
+    color: #00d4ff;
+    border-style: solid;
+    border-width: 5px 5px 5px 5px;
+    border-radius: 100px 100px 100px 100px;
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.4);
+    padding: 10px 10px 10px 10px;
+    margin: 0px 30px;
+}
+
+
+.info_dialog_container{
+    position: relative;
+    margin-left: 160px;
+}
+
+@media screen and (max-width: 780px){
+    .info_dialog_container{
+        margin-left: 0px;
+    }
+}
+
+@media screen and (max-width: 950px){
+    .info_dialog_container{
+        margin-left: 34px;
+    }
+}
+
+
+
+
+.overlay_border_divButton{
+    width: 20%;
+}
+
+.overlay_border_complete_screen_width{
+    width: 100%;
+}
+
+.overlay_border_main_container{
+    height: 200px;
+}
+
+
+.overlay_border_tap_height_container{
+    height: 68px;
+    -webkit-transition: height 0.4s ease;
+    transition: height 0.4s ease;
+}
+
+.overlay_border_tap_height_container:hover{
+    height: 320px;
+}
+
+.hidden_bevor_hover_master:hover .hidden_bevor_hover{
+    display: block;
+}
+
+.hidden_bevor_hover {
+    display: none;
+}
+
+
+
+
+.layout_animation{
+    animation-fill-mode: both;
+    -webkit-animation-duration: 3.0s;
+    animation-duration: 3.0s;
+
+    animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
+
+    -webkit-animation-name: border_animation;
+    animation-name: border_animation;
+
+    min-height: 100px;
+}
+
+@-webkit-keyframes border_animation {
+    0%{
+        border-width: 5px 5px 5px 5px;
+    }
+    15% {
+        border-width: 10px 10px 10px 10px;
+    }
+    30% {
+        border-width: 5px 5px 5px 5px;
+    }
+    100% {
+        border-width: 5px 5px 5px 5px;
+    }
+}
+@keyframes border_animation {
+    0%{
+        border-width: 5px 5px 5px 5px;
+    }
+    15% {
+        border-width: 10px 10px 10px 10px;
+    }
+    30% {
+        border-width: 5px 5px 5px 5px;
+    }
+    100% {
+        border-width: 5px 5px 5px 5px;
+    }
+}
+
+
+#layout_animation1{
+    -webkit-animation-delay: 0.5s;
+    animation-delay: 0.5s;
+}
+
+#layout_animation2{
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s;
+}
+
+#layout_animation3{
+    -webkit-animation-delay: 1.5s;
+    animation-delay: 1.5s;
+}
+
+#layout_animation4{
+    -webkit-animation-delay: 2.0s;
+    animation-delay: 2.0s;
+}
+
+#layout_animation5{
+    -webkit-animation-delay: 2.5s;
+    animation-delay: 2.5s;
+}
+
+#layout_animation6{
+    -webkit-animation-delay: 3.0s;
+    animation-delay: 3.0s;
+}
+
+
+
+.toobar_anmation{
+    position: relative;
+    animation-fill-mode: both;
+    -webkit-animation-duration: 5s;
+    animation-duration: 5s;
+
+    animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
+
+    -webkit-animation-name: toolbar_animation;
+    animation-name: toolbar_animation;
+}
+
+@-webkit-keyframes toolbar_animation {
+    0%{
+        left: 0%
+    }
+    20% {
+        left: 130%;
+    }
+    21%{
+        left: 0%
+    }
+    100% {
+        left: 0%;
+    }
+}
+
+@keyframes toolbar_animation {
+    0%{
+        left: 0%
+    }
+    20% {
+        left: 130%;
+    }
+    21%{
+        left: 0%
+    }
+    100% {
+        left: 0%;
+    }
+}
+
+
+#toolbar_anmation1{
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s;
+}
+
+#toolbar_anmation2{
+    -webkit-animation-delay: 2s;
+    animation-delay: 2s;
+}
+#toolbar_anmation3{
+    -webkit-animation-delay: 3s;
+    animation-delay: 3s;
+}
+

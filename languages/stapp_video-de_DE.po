@@ -1,0 +1,504 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: stapp video 0.9\n"
+"POT-Creation-Date: 2021-04-18 16:36+0200\n"
+"PO-Revision-Date: 2021-04-18 16:39+0200\n"
+"Last-Translator: STApp Professional GmbH <development@stapp-professional."
+"de>\n"
+"Language-Team: \n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.2\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e;esc_html_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: admin/admin.php:38 admin/admin.php:49
+msgid "Video Overview"
+msgstr "Video Übersicht"
+
+#: admin/admin.php:39 admin/menu/CreateSubMenuHTML_HelpDialog.php:104
+msgid "Video"
+msgstr ""
+
+#: admin/admin.php:50
+msgid "Overview"
+msgstr "Übersicht"
+
+#: admin/admin.php:61
+msgid "Setup new Video"
+msgstr "Neues Video"
+
+#: admin/admin.php:62
+msgid "New"
+msgstr "Neu"
+
+#: admin/admin.php:74
+msgid "STApp Video Pro Version"
+msgstr ""
+
+#: admin/admin.php:75
+msgid "Pro Version"
+msgstr ""
+
+#: admin/menu/CreateSubMenuHTML_Form.php:11
+#: admin/menu/CreateSubMenuHTML_Form.php:405
+#: admin/menu/ProVersionSubMenuHTML_Form.php:30
+msgid "Save"
+msgstr "Speichern"
+
+#: admin/menu/CreateSubMenuHTML_Form.php:15
+#: admin/menu/CreateSubMenuHTML_HelpDialog.php:36
+msgid "Configuration"
+msgstr "Konfiguration"
+
+#: admin/menu/CreateSubMenuHTML_Form.php:22
+msgid "Title:"
+msgstr "Titel:"
+
+#: admin/menu/CreateSubMenuHTML_Form.php:24
+msgid "ShortCode:"
+msgstr ""
+
+#: admin/menu/CreateSubMenuHTML_Form.php:42
+msgid "Muted will also activated. Some Browser are blocked unmuted videos."
+msgstr ""
+"Da einige Browser blockieren Autoplay bei nicht stummgeschalteten Browsern. "
+"Daher wurde die Stummschaltung ebenfalls aktiviert."
+
+#: admin/menu/CreateSubMenuHTML_Form.php:46
+#: admin/menu/CreateSubMenuHTML_HelpDialog.php:47
+msgid "Autoplay:"
+msgstr "Automatisches Abspielen:"
+
+#: admin/menu/CreateSubMenuHTML_Form.php:59
+#: admin/menu/CreateSubMenuHTML_HelpDialog.php:52
+msgid "Loop:"
+msgstr "Schleife:"
+
+#: admin/menu/CreateSubMenuHTML_Form.php:75
+#: admin/menu/CreateSubMenuHTML_HelpDialog.php:59
+msgid "Mute:"
+msgstr "Stumm:"
+
+#: admin/menu/CreateSubMenuHTML_Form.php:92
+#: admin/menu/CreateSubMenuHTML_HelpDialog.php:63
+msgid "Controls:"
+msgstr "Steuerung:"
+
+#: admin/menu/CreateSubMenuHTML_Form.php:106
+#: admin/menu/CreateSubMenuHTML_HelpDialog.php:70
+msgid "Play Inline:"
+msgstr "Innerhalb der Webseite:"
+
+#: admin/menu/CreateSubMenuHTML_Form.php:120
+#: admin/menu/CreateSubMenuHTML_HelpDialog.php:74
+msgid "Preload:"
+msgstr "Vorabladen:"
+
+#: admin/menu/CreateSubMenuHTML_Form.php:135
+#: admin/menu/CreateSubMenuHTML_HelpDialog.php:86
+msgid "Fallback Image"
+msgstr "Fallback Bild"
+
+#: admin/menu/CreateSubMenuHTML_Form.php:143
+#: admin/menu/CreateSubMenuHTML_Form.php:180
+#: admin/menu/CreateSubMenuHTML_Form.php:231
+#: admin/menu/CreateSubMenuHTML_Form.php:279
+#: admin/menu/CreateSubMenuHTML_Form.php:325
+#: admin/menu/CreateSubMenuHTML_Form.php:372
+msgid "File:"
+msgstr "Link:"
+
+#: admin/menu/CreateSubMenuHTML_Form.php:155
+#: admin/menu/CreateSubMenuHTML_Form.php:191
+#: admin/menu/CreateSubMenuHTML_Form.php:242
+#: admin/menu/CreateSubMenuHTML_Form.php:289
+#: admin/menu/CreateSubMenuHTML_Form.php:336
+#: admin/menu/CreateSubMenuHTML_Form.php:380
+msgid "clear"
+msgstr "Löschen"
+
+#: admin/menu/CreateSubMenuHTML_Form.php:172
+msgid "Desktop Video 4K"
+msgstr ""
+
+#: admin/menu/CreateSubMenuHTML_Form.php:207
+#: admin/menu/CreateSubMenuHTML_Form.php:257
+#: admin/menu/CreateSubMenuHTML_Form.php:303
+#: admin/menu/CreateSubMenuHTML_Form.php:350
+#: admin/menu/CreateSubMenuHTML_Form.php:394
+msgid "Custom Breakpoint:"
+msgstr "Benutzerdefiniert:"
+
+#: admin/menu/CreateSubMenuHTML_Form.php:220
+msgid "Desktop Video HD"
+msgstr ""
+
+#: admin/menu/CreateSubMenuHTML_Form.php:270
+msgid "Desktop Video"
+msgstr ""
+
+#: admin/menu/CreateSubMenuHTML_Form.php:316
+msgid "Tablet Video"
+msgstr ""
+
+#: admin/menu/CreateSubMenuHTML_Form.php:363
+msgid "Mobile Phone Video"
+msgstr "Handy Video"
+
+#: admin/menu/CreateSubMenuHTML_HelpDialog.php:32
+msgid "Hover to learn more about"
+msgstr ""
+
+#: admin/menu/CreateSubMenuHTML_HelpDialog.php:40
+msgid ""
+"In this area you can make general settings for starting and playing your "
+"video."
+msgstr ""
+"In diesem Bereich können Sie allgemeine Einstellungen zum Starten und "
+"Abspielen Ihres Videos vornehmen."
+
+#: admin/menu/CreateSubMenuHTML_HelpDialog.php:41
+msgid "Here you can also give the video a title and a description."
+msgstr ""
+"Hier können Sie dem Video auch einen Titel und eine Beschreibung geben."
+
+#: admin/menu/CreateSubMenuHTML_HelpDialog.php:42
+msgid "If the video has been saved, you can copy the shortcode from here."
+msgstr ""
+"Wenn das Video gespeichert wurde, können Sie den Shortcode von hier kopieren."
+
+#: admin/menu/CreateSubMenuHTML_HelpDialog.php:48
+msgid "Enabled that the video will start playing if page is ready."
+msgstr "Aktiviert, dass das Video abgespielt wird, wenn die Seite bereit ist."
+
+#: admin/menu/CreateSubMenuHTML_HelpDialog.php:49
+msgid "Some Browser will block auto playing if a video is unmuted."
+msgstr ""
+"Einige Browser blockieren die automatische Wiedergabe, wenn ein Video nicht "
+"stummgeschaltet ist."
+
+#: admin/menu/CreateSubMenuHTML_HelpDialog.php:53
+msgid "The video will start again, every time if is finished."
+msgstr "Das Video wird jedes Mal neu gestartet, wenn es fertig ist."
+
+#: admin/menu/CreateSubMenuHTML_HelpDialog.php:60
+msgid "Disabled the audio output of the video."
+msgstr "Deaktiviert die Audioausgabe des Videos."
+
+#: admin/menu/CreateSubMenuHTML_HelpDialog.php:64
+msgid "The video controls will be display (such as a play/pause button etc)."
+msgstr ""
+"Die Videosteuerelemente werden angezeigt (z. B. eine Wiedergabe- / Pause-"
+"Taste usw.)."
+
+#: admin/menu/CreateSubMenuHTML_HelpDialog.php:71
+msgid ""
+"Mobile browsers, will play the video right where it is instead of the "
+"default, which is to open it up full screen while it plays."
+msgstr ""
+"In mobilen Browsern wird das Video genau dort abgespielt, wo es sich "
+"befindet, anstatt als Standard, dh es wird während der Wiedergabe im "
+"Vollbildmodus geöffnet."
+
+#: admin/menu/CreateSubMenuHTML_HelpDialog.php:75
+msgid ""
+"Specifies how the video should be loaded when the page loads. (auto/none)"
+msgstr ""
+"Gibt an, wie das Video beim Laden der Seite geladen werden soll. (auto/nicht)"
+
+#: admin/menu/CreateSubMenuHTML_HelpDialog.php:90
+msgid ""
+"Specifies an image that will be shown, if the video is downloading or until "
+"the user hits the play button."
+msgstr ""
+"Gibt ein Bild an, das angezeigt wird, wenn das Video heruntergeladen wird "
+"oder bis der Benutzer die Wiedergabetaste drückt."
+
+#: admin/menu/CreateSubMenuHTML_HelpDialog.php:91
+msgid "The picture should have the same size as the largest video."
+msgstr "Das Bild sollte die gleiche Größe wie das größte Video haben."
+
+#: admin/menu/CreateSubMenuHTML_HelpDialog.php:95
+msgid "Possible Image formats are: "
+msgstr "Mögliche Bildformate sind: "
+
+#: admin/menu/CreateSubMenuHTML_HelpDialog.php:97
+msgid "JPG, PNG, JPEG, GIF"
+msgstr ""
+
+#: admin/menu/CreateSubMenuHTML_HelpDialog.php:108
+msgid "In this area you can add 5 different video sizes."
+msgstr "In diesem Bereich können Sie 5 verschiedene Videogrößen hinzufügen."
+
+#: admin/menu/CreateSubMenuHTML_HelpDialog.php:109
+msgid "Each size stands for a device type."
+msgstr "Jede Größe steht dabei für einen Gerätetyp."
+
+#: admin/menu/CreateSubMenuHTML_HelpDialog.php:110
+msgid ""
+"If no video is linked for a device type, the video is displayed in a smaller "
+"size."
+msgstr ""
+"Wenn bei einem Gerätetyp kein Video verlinkt ist, wird das Video mit einer "
+"kleineren Größe angezeigt."
+
+#: admin/menu/CreateSubMenuHTML_HelpDialog.php:115
+msgid "There are three supported video formats in HTML: "
+msgstr "Es gibt drei unterstützte Videoformate in HTML: "
+
+#: admin/menu/CreateSubMenuHTML_HelpDialog.php:117
+msgid "MP4, WebM, and OGG"
+msgstr "MP4, WebM, und OGG"
+
+#: admin/menu/CreateSubMenuHTML_HelpDialog.php:119
+msgid "Other video formats are not supported by all web browsers."
+msgstr "Andere Videoformate werden nicht von allen Webbrowsern unterstützt."
+
+#: admin/menu/CreateSubMenuHTML_HelpDialog.php:129
+#: admin/menu/OverviewSubMenuHTML_HelpDialog.php:76
+msgid "Close"
+msgstr "Schliessen"
+
+#: admin/menu/CreateSubMenuHTML_NoImageMessage.php:4
+#| msgid "Fallback Image"
+msgid "No Fallback Image added."
+msgstr "Kein Fallback Bild hinzugefügt."
+
+#: admin/menu/CreateSubMenuHTML_NoImageMessage.php:6
+msgid "Please add a image from you media as fall back image."
+msgstr "Bitte fügen Sie ein Bild von Ihren Medien als Fallback Bild hinzu."
+
+#: admin/menu/CreateSubMenuHTML_NoVideoMessage.php:4
+msgid "No video added."
+msgstr "Kein Video hinzugefügt."
+
+#: admin/menu/CreateSubMenuHTML_NoVideoMessage.php:6
+msgid "Please add at least 1 video."
+msgstr "Bitte fügen Sie mindestens 1 Video hinzu."
+
+#: admin/menu/CreateSubMenuHTML_ProPage.php:35
+msgid "Try Video Pro"
+msgstr "Probiere Video Pro"
+
+#: admin/menu/CreateSubMenuHTML_ProPage.php:47
+msgid "PRO"
+msgstr ""
+
+#: admin/menu/CreateSubMenuHTML_ProPage.php:50
+msgid "Video Plugin"
+msgstr ""
+
+#: admin/menu/CreateSubMenuHTML_ProPage.php:54
+msgid "4,99"
+msgstr ""
+
+#: admin/menu/CreateSubMenuHTML_ProPage.php:55
+msgid "€"
+msgstr ""
+
+#: admin/menu/CreateSubMenuHTML_ProPage.php:68
+msgid "Responsive optimized display of your videos on all devices"
+msgstr "Responsive optimierte Darstellung deiner Videos auf allen Endgeräten"
+
+#: admin/menu/CreateSubMenuHTML_ProPage.php:76
+msgid "Very easy handling, no programming skills required"
+msgstr "Kinderleichtes Handling, keine Programmierkenntnisse erforderlich"
+
+#: admin/menu/CreateSubMenuHTML_ProPage.php:84
+msgid ""
+"Assign a video file of the appropriate size to each end device type "
+"(desktop, tablet or smartphone)"
+msgstr ""
+"Weise jedem Endgerättyp (Desktop, Tablet oder Smartphone) eine Video-Datei "
+"mit der passenden Größe zu"
+
+#: admin/menu/CreateSubMenuHTML_ProPage.php:92
+msgid "Your videos are automatically SEO-friendly & responsive"
+msgstr "Deine Videos sind damit automatisch SEO-freundlich & Responsive"
+
+#: admin/menu/CreateSubMenuHTML_ProPage.php:100
+msgid "Forum or email support"
+msgstr "Forum oder E-Mail-Support"
+
+#: admin/menu/CreateSubMenuHTML_ProPage.php:108
+msgid "Unlimited lifetime updates"
+msgstr "Unbegrenzte Updates auf Lebenszeit"
+
+#: admin/menu/CreateSubMenuHTML_ProPage.php:117
+msgid "Unlimited shortcodes / videos"
+msgstr "Unbegrenzt viele Shortcodes / Videos"
+
+#: admin/menu/CreateSubMenuHTML_ProPage.php:126
+msgid "Unlimited pages"
+msgstr "Unbegrenzt viele Seiten"
+
+#: admin/menu/CreateSubMenuHTML_ProPage.php:135
+msgid "1 year premium support"
+msgstr "1 Jahr Premium Support"
+
+#: admin/menu/CreateSubMenuHTML_ProPage.php:145
+msgid "NO SUBSCRIPTION! ONLY BUY ONCE AND USE UNLIMITED!"
+msgstr "KEIN ABO! NUR EINMAL KAUFEN UND UNBEGRENZT NUTZEN!"
+
+#: admin/menu/CreateSubMenuHTML_ProPage.php:153
+msgid "Learn more"
+msgstr "Jetzt Informieren"
+
+#: admin/menu/CreateSubMenuHTML_SaveMessage.php:4
+msgid "Configuration successfully saved."
+msgstr "Konfiguration erfolgreich gespeichert."
+
+#: admin/menu/OverviewSubMenuHTML.php:61
+#: admin/menu/OverviewSubMenuHTML_HelpDialog.php:53
+msgid "New Video"
+msgstr "Neues Video"
+
+#: admin/menu/OverviewSubMenuHTML.php:71
+msgid "General Configuration"
+msgstr "Allgemeine Konfigurationen"
+
+#: admin/menu/OverviewSubMenuHTML_HelpBox.php:1
+msgid "Getting started"
+msgstr "Erste Schritte"
+
+#: admin/menu/OverviewSubMenuHTML_HelpBox.php:7
+msgid "If you have any question about the Configuration, please read the"
+msgstr "Bei Fragen zur Konfiguration lesen Sie die bitte"
+
+#: admin/menu/OverviewSubMenuHTML_HelpBox.php:7
+msgid "Documentation"
+msgstr "Dokumentation"
+
+#: admin/menu/OverviewSubMenuHTML_HelpBox.php:7
+msgid "or visit our "
+msgstr "oder besuchen Sie unser "
+
+#: admin/menu/OverviewSubMenuHTML_HelpBox.php:7
+msgid "Forum"
+msgstr "Forum"
+
+#: admin/menu/OverviewSubMenuHTML_HelpBox.php:10
+msgid "You will find a lot of answers from other users"
+msgstr "Dort finden Sie viele Antworten von anderen Benutzern"
+
+#: admin/menu/OverviewSubMenuHTML_HelpBox.php:13
+msgid "If you want to report a bug, please contact our "
+msgstr "Falls Sie einen Fehler melden möchten, kontaktieren Sie unser "
+
+#: admin/menu/OverviewSubMenuHTML_HelpBox.php:13
+msgid "Support Team."
+msgstr ""
+
+#: admin/menu/OverviewSubMenuHTML_HelpBox.php:16
+msgid "If you interest about more custom features, please use our "
+msgstr "Bei Interesse an weiteren Erweiterungen nutzen Sie bitte unseren "
+
+#: admin/menu/OverviewSubMenuHTML_HelpBox.php:16
+msgid "Professional Service."
+msgstr ""
+
+#: admin/menu/OverviewSubMenuHTML_HelpBox.php:30
+msgid "Help?"
+msgstr "Hilfe?"
+
+#: admin/menu/OverviewSubMenuHTML_HelpDialog.php:30
+msgid "If you want to show this dialog again,"
+msgstr "Um diesen Dialog erneut zuöffnen,"
+
+#: admin/menu/OverviewSubMenuHTML_HelpDialog.php:33
+msgid "please click on... "
+msgstr "bitte hier klicken… "
+
+#: admin/menu/OverviewSubMenuHTML_HelpDialog.php:50
+msgid "Click \"New Video\" Button to start a new Configuration "
+msgstr "Drücken Sie „Neues Video“ um eine neue Konfiguration anzulegen. "
+
+#: admin/menu/OverviewSubMenuHTML_HelpDialog.php:63
+msgid "After saving you will find a list of all video configurations here."
+msgstr ""
+"Nach dem Speichern finden Sie hier eine Liste aller Videokonfigurationen."
+
+#: admin/menu/OverviewSubMenuHTML_HelpDialog.php:64
+msgid "Copy the desired shortcode and paste it in your page editor."
+msgstr ""
+"Kopieren Sie den gewünschten Shortcode und fügen Sie ihn in Ihren "
+"Seiteneditor ein."
+
+#: admin/menu/OverviewSubMenuHTML_HelpDialog.php:65
+msgid "Wordpress will transform the Shortcode to your video."
+msgstr "Wordpress wandelt den Shortcode in Ihr Video um."
+
+#: admin/menu/OverviewSubMenuHTML_HelpDialog.php:67
+msgid "For more Information about Shortcode, please visit our support form."
+msgstr ""
+"Weitere Informationen zu Shortcode finden Sie in unserem Support-Formular."
+
+#: admin/menu/OverviewSubMenuHTML_Message.php:32
+msgid "No configuration available yet."
+msgstr "Es wurde noch keine Konfiguration angelegt."
+
+#: admin/menu/OverviewSubMenuHTML_Message.php:42
+msgid "Please click on \"New Video\" to start a new configuration."
+msgstr "Drücken Sie „Neues Video“ um eine neue Konfiguration anzulegen."
+
+#: admin/menu/ProVersionSubMenuHTML_Form.php:4
+msgid "Enter License Key"
+msgstr "Lizenzschlüssel eingeben"
+
+#: admin/menu/ProVersionSubMenuHTML_Form.php:12
+msgid "Please enter your licence key:"
+msgstr "Bitte geben Sie Ihren Lizenzschlüssel ein:"
+
+#: admin/menu/ProVersionSubMenuHTML_Form.php:13
+msgid " XXXX-XXXX-XXXX-XXXX"
+msgstr ""
+
+#: admin/menu/ProVersionSubMenuHTML_Message.php:32
+msgid "STApp Video Pro Features are enabled!"
+msgstr "STApp Video Pro Funktionen freigeschalten!"
+
+#: admin/menu/ProVersionSubMenuHTML_Message.php:42
+msgid "Thank you, all Pro Features are enabled"
+msgstr "Danke, dass Sie sich für STApp Video Pro entschieden haben"
+
+#: includes/db/stapp_video_readData.php:65
+msgid "Shortcode"
+msgstr ""
+
+#: includes/db/stapp_video_readData.php:66
+msgid "Change"
+msgstr "Ändern"
+
+#: includes/db/stapp_video_readData.php:67
+msgid "Delete"
+msgstr "Löschen"
+
+#: includes/db/stapp_video_readData.php:68
+msgid "Cancel"
+msgstr "Abbrechen"
+
+#: includes/db/stapp_video_readData.php:69
+msgid "Delete Video Configuration"
+msgstr "Konfiguration löschen"
+
+#: includes/db/stapp_video_readData.php:70
+msgid "Are you sure you want to delete this video configuration?"
+msgstr "Wollen Sie wirklich diese Konfiguration löschen?"
+
+#: includes/db/stapp_video_writeData.php:129
+#: includes/db/stapp_video_writeData.php:140
+msgid "You entered no licence key!"
+msgstr "Bitte geben Sie Ihren Lizenzschlüssel ein!"
+
+#: includes/db/stapp_video_writeData.php:144
+msgid "You entered a incorrect licence key!"
+msgstr "Bitte geben Sie Ihren Lizenzschlüssel ein!"
+
+#: includes/db/stapp_video_writeData.php:149
+msgid "You entered a worng licence key!"
+msgstr "Bitte geben Sie Ihren Lizenzschlüssel ein!"

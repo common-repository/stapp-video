@@ -1,0 +1,354 @@
+* {
+    box-sizing: border-box;
+}
+
+
+footer {
+    position: fixed;
+    padding: 10px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.white_background{
+    background: white;
+}
+
+.white_modus{
+    background: white;
+}
+
+.black_modus{
+    background: #777777;
+}
+
+
+.config_block{
+    margin: 20px 20px 20px 20px;
+}
+
+.config_border{
+    height: 200px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background: white;
+}
+
+.config_border_headline{
+    background: #777777;
+    color: #f1f1f1;
+    height: 30px;
+    padding: 5px 30px 0px 30px;
+}
+
+.config_border_container_element_space{
+    margin: 10px 10px 10px 10px !important;
+}
+
+
+
+.float_layout{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.float_layout_left{
+    display: flex;
+    justify-content: left;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.float_layout_rigth{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.float_layout_center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.float_layout_center_top{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.normal_layout{
+    display: block;
+    justify-content: normal;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.normal_layout_block{
+    display: block;
+    justify-content: normal;
+    align-items: flex-start;
+}
+
+.normal_layout_center{
+    display: block;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+}
+
+
+/* The switch - the box around the slider */
+.toogle {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+}
+
+/* Hide default HTML checkbox */
+.toogle input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+/* The slider */
+.toogleButton {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #777777;
+    -webkit-transition: .4s;
+    transition: .4s;
+    border-radius: 34px;
+}
+
+.toogleButton:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+    border-radius: 50%;
+}
+
+input:checked + .toogleButton {
+    background-color: #08c415;
+}
+
+input:focus + .toogleButton {
+    box-shadow: 0 0 1px #08c415;
+}
+
+input:checked + .toogleButton:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+
+/*
+The Input Field
+ */
+
+.stapp_input{
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    border-radius: 5px;
+}
+
+/*
+DIV BUTTTON
+ */
+
+
+
+.divButton{
+    text-align: center;
+    vertical-align: middle;
+    background: #777777;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+    width: 20%;
+    padding: 3px 10px 3px 10px;
+    /*top: 10px;*/
+    position: relative;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.28);
+    text-decoration: none;
+}
+.divButton:hover{
+    color: white;
+    background: #777777;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+/*
+    Global Classes for all Tabs
+ */
+
+
+.mainLabel{
+    top: -10px;
+    left: 10px;
+    background-color: #f1f1f1;
+    position: relative;
+}
+
+.important_label{
+    color: red;
+}
+
+.slider{
+    -webkit-appearance: none;
+    width: 100%;
+    height: 25px;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    border-radius: 5px;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    top: -5px;
+    width: 15px;
+    height: 35px;
+    background: none;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+    top: -5px;
+    width: 15px;
+    height: 35px;
+    background: none;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+
+
+.color_slider_bg {
+    background: -webkit-gradient(linear, left top, right top, from(red), color-stop(17%, #ff0), color-stop(33%, lime), color-stop(50%, cyan), color-stop(66%, blue), color-stop(83%, #f0f), to(red));
+    background:linear-gradient(to right, red, #ff0 17%, lime 33%, cyan, blue 66%, #f0f 83%, red);
+}
+
+.LinkButton{
+    text-align: center;
+    vertical-align: middle;
+    line-height: 60px;
+    background: #0073aa;
+    color: white;
+    height: 60px;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+
+.hidden{
+    display: none;
+}
+
+.text_input{
+    width: 100%;
+}
+
+
+
+
+.dialog_close_button{
+    padding: 5px 10px 5px 10px;
+}
+
+.help_button{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+.delete_button{
+    text-decoration: none;
+    cursor: pointer;
+}
+.delete_button:hover{
+
+}
+
+
+
+.dialog-overlay {
+    position: fixed; /* Sit on top of the page content */
+    display: none; /* Hidden by default */
+    width: 100%; /* Full width (cover the whole page) */
+    max-width:100%;
+    height: 100%; /* Full height (cover the whole page) */
+    max-height:100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin-left:0;
+    margin-right:0;
+    margin-bottom:0;
+    margin-top:0;
+    background-color: rgba(0,0,0,0.8); /* Black background with opacity */
+    z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+
+}
+
+.dialog-box {
+    background: rgba(255,255,255,1.0)!important;
+    position: fixed;
+    top:calc(50% - 100px);
+    left:calc(50% - 200px);
+    width:400px;
+    height:170px;
+
+    /* make sure it has the highest z-index */
+    z-index:1;
+
+    cursor: pointer; /* Add a pointer on hover */
+}
+
+
+.dialog_box_title{
+    min-width: 200px;
+}
+
+.delete_dialog_border{
+    background: #777777;
+    color: #f1f1f1;
+    height: 30px;
+    padding: 5px 30px 0px 30px;
+    display: flex;
+    justify-content: left;
+    align-items: flex-start;
+}
+

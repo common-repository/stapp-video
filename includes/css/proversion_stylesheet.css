@@ -1,0 +1,492 @@
+
+.proversion_main_container{
+    background: #FFFFFF;
+    font-family: "Roboto", Sans-serif;
+}
+
+
+.headline_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.headline_try_pro_text{
+    text-align: center;
+    font-weight: 600;
+    font-size: 50px;
+    color: #54595F;
+    margin: 0;
+    padding: 30px 0 0 0;
+    line-height: 1.2;
+}
+
+
+.price_table_container{
+    display: flex;
+    justify-content: left;
+    align-items: flex-start;
+    width: 100%;
+}
+
+
+.price_table{
+    width: 100%;
+}
+
+.price_table_border{
+    margin: 15px;
+    border-style: groove;
+    border-color: #FFFFFF;
+    box-shadow: 0px 0px 10px 2px #7A7A7A;
+    min-width: 700px;
+}
+
+.price_table_heading_text{
+    text-align: center;
+    font-weight: 600;
+    font-size: 50px;
+    color: #FFFFFF;
+    margin: 0;
+    padding: 30px 0 0 0;
+    line-height: 1.2;
+}
+
+
+.price_table_subheading_text{
+    text-align: center;
+    font-weight: 400;
+    font-size: 13px;
+    color: #FFFFFF;
+    margin: 0;
+    padding: 0 0 30px 0;
+    line-height: 1.2;
+}
+
+.price_table_center_price{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 15px 0 15px 0;
+}
+
+.price_table_center_price_text{
+    font-weight: 600;
+    font-size: 50px;
+    color: #54595F;
+    line-height: 1.2;
+}
+
+.price_table_center_price_unit{
+    font-size: 25px;
+    align-self: flex-end;
+    color: #54595F;
+    margin-right: 3px;
+    line-height: 1.8;
+}
+
+.price_table_center_additional{
+    font-weight: 400;
+    color: #54595F;
+    text-align: center;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+.price_table_center_list{
+    list-style-type: none;
+}
+
+
+.price_table_center{
+    background: #FFFFFF;
+}
+
+.price_table_center_item{
+    margin-bottom: 5px;
+    margin-left: 15px;
+}
+
+.checked {
+    font-weight: 600;
+    color: #7FFFD4;
+}
+.plus{
+    font-weight: 600;
+    color: #0792FF;
+}
+
+
+.price_table_center_label{
+    color: #54595F;
+    font-weight: 400;
+}
+
+.price_table_footer{
+    padding: 30px 0;
+    height: 50px;
+    text-align: center;
+}
+
+.price_table_footer_text{
+    text-align: center;
+    font-weight: 400;
+    font-size: 13px;
+    color: #FFFFFF;
+    margin: 15px 30px 10px 30px;
+}
+
+.background_free{
+    background: #7A7A7A;
+}
+
+
+.background_pro{
+    background: #0792FF;
+}
+
+
+
+
+
+
+
+
+
+@-webkit-keyframes explode {
+    0% {
+        opacity: 1;
+        stroke-width: 3;
+        stroke-opacity: 1;
+        -webkit-transform: scale(1.1) rotate(60deg);
+        transform: scale(1.1) rotate(60deg);
+    }
+    50% {
+        opacity: 1;
+        stroke-width: 3;
+        stroke-opacity: 1;
+        -webkit-transform: scale(0.1) rotate(40deg);
+        transform: scale(0.1) rotate(40deg);
+    }
+    51%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+@keyframes explode {
+    0% {
+        opacity: 1;
+        stroke-width: 3;
+        stroke-opacity: 1;
+        -webkit-transform: scale(1.1) rotate(60deg);
+        transform: scale(1.1) rotate(60deg);
+    }
+    50% {
+        opacity: 1;
+        stroke-width: 3;
+        stroke-opacity: 1;
+        -webkit-transform: scale(0.1) rotate(40deg);
+        transform: scale(0.1) rotate(40deg);
+    }
+    51%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 0;
+    }
+
+}
+
+
+
+@-webkit-keyframes invisible {
+    0%{
+        opacity: 1;
+        stroke-opacity: 0;
+        -webkit-transform: scale(0.0);
+        transform: scale(0.0);
+    }
+    50% {
+        -webkit-transform: scale(0.0);
+        transform: scale(0.0);
+        stroke-opacity: 1;
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: scale(1.0);
+        transform: scale(1.0);
+        stroke-opacity: 1;
+    }
+}
+@keyframes invisible {
+    0%{
+        opacity: 1;
+        stroke-opacity: 0;
+        -webkit-transform: scale(0.0);
+        transform: scale(0.0);
+    }
+    50% {
+        -webkit-transform: scale(0.0);
+        transform: scale(0.0);
+        stroke-opacity: 1;
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: scale(1.0);
+        transform: scale(1.0);
+        stroke-opacity: 1;
+    }
+}
+
+
+@keyframes hidden {
+    0%{
+        stroke-opacity: 0;
+    }
+    100% {
+        stroke-opacity: 0;
+    }
+}
+
+
+.stapp__circle{
+    stroke: #27fdc7;
+    stroke-dasharray: 1, 6;
+    stroke-width: 0;
+    stroke-opacity: 0;
+    opacity: 0;
+    -webkit-transform-origin: 13.5px 12.5px;
+    transform-origin: 13.5px 12.5px;
+    -webkit-transform: scale(1.1) rotate(0deg);
+    transform: scale(1.1) rotate(0deg);
+
+    animation-fill-mode: both;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+
+    -webkit-animation-name: explode;
+    animation-name: explode;
+}
+.stapp__circle1 {
+    -webkit-animation-delay: 4.5s;
+    animation-delay: 4.5s;
+}
+.stapp__circle2 {
+    -webkit-animation-delay: 5s;
+    animation-delay: 5s;
+}
+
+.stapp__circle3 {
+    -webkit-animation-delay: 5.5s;
+    animation-delay: 5.5s;
+}
+
+.stapp__circle4 {
+    -webkit-animation-delay: 6s;
+    animation-delay: 6s;
+}
+
+.stapp__circle5 {
+    -webkit-animation-delay: 6.5s;
+    animation-delay: 6.5s;
+}
+.stapp__circle6 {
+    -webkit-animation-delay: 7s;
+    animation-delay: 7s;
+}
+
+
+.stapp__check{
+    opacity: 0;
+    animation-fill-mode: both;
+    -webkit-transform-origin: 13.5px 12.5px;
+    transform-origin: 13.5px 12.5px;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-name: invisible;
+    animation-name: invisible;
+}
+
+
+.stapp__check1{
+
+    -webkit-animation-delay: 4.5s;
+    animation-delay: 4.5s;
+}
+
+.stapp__check2{
+    -webkit-animation-delay: 5s;
+    animation-delay: 5s;
+}
+
+.stapp__check3{
+    -webkit-animation-delay: 5.5s;
+    animation-delay: 5.5s;
+}
+
+.stapp__check4{
+    -webkit-animation-delay: 6s;
+    animation-delay: 6s;
+}
+
+.stapp__check5{
+    -webkit-animation-delay: 6.5s;
+    animation-delay: 6.5s;
+}
+
+.stapp__check6{
+    -webkit-animation-delay: 7s;
+    animation-delay: 7s;
+}
+
+
+
+
+.stapp_gray_circle{
+    opacity: 0;
+    animation-fill-mode: both;
+    -webkit-transform-origin: 15px 20px;
+    transform-origin: 15px 20px;
+
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-name: gray_visible;
+    animation-name: gray_visible;
+}
+
+.stapp_gray_circle1{
+    -webkit-animation-delay: 0.5s;
+    animation-delay: 0.5s;
+}
+
+.stapp_gray_circle2{
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s;
+}
+
+.stapp_gray_circle3{
+    -webkit-animation-delay: 1.5s;
+    animation-delay: 1.5s;
+}
+
+.stapp_gray_circle4{
+    -webkit-animation-delay: 2s;
+    animation-delay: 2s;
+}
+
+.stapp_gray_circle5{
+    -webkit-animation-delay: 2.5s;
+    animation-delay: 2.5s;
+}
+
+.stapp_gray_circle6{
+    -webkit-animation-delay: 3s;
+    animation-delay: 3s;
+}
+
+.stapp_gray_circle7{
+    -webkit-animation-delay: 3.5s;
+    animation-delay: 3.5s;
+}
+
+.stapp_gray_circle8{
+    -webkit-animation-delay: 4s;
+    animation-delay: 4s;
+}
+
+@keyframes gray_visible {
+    0%{
+        opacity: 0;
+        -webkit-transform: scale(1.0);
+        transform: scale(1.0);
+    }
+    50% {
+        -webkit-transform: scale(1.0);
+        transform: scale(1.0);
+        opacity: 1;
+    }
+    100% {
+        -webkit-transform: scale(0.4);
+        transform: scale(0.4);
+        opacity: 1;
+    }
+}
+
+.headline_unterline_container{
+    display: flex;
+    justify-content: center;
+}
+
+.stapp_svg{
+    width: 50%;
+    height: 120px;
+    margin-top: -80px;
+}
+
+.stapp_svg .stapp__line {
+    stroke: aqua;
+    stroke-width: 5;
+    fill: none;
+    stroke-dasharray: 1500;
+    stroke-dashoffset: 1500;
+}
+.stapp__line {
+    stroke-width: 2px;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+}
+
+
+.stapp__line{
+    animation-fill-mode: both;
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s;
+    -webkit-animation: paintstrip 5s infinite;
+    animation: paintstrip 5s infinite;
+}
+
+@keyframes paintstrip {
+    to { stroke-dashoffset: 0;}
+}
+
+
+
+.stapp_button{
+    font-size: 14px;
+    font-weight: bold;
+
+    line-height: 1em;
+    letter-spacing: 5px;
+    fill: #0792FF;
+    color: #0792FF;
+    background-color: #FFFFFF;
+    border-style: solid;
+    border-width: 5px 5px 5px 5px;
+    border-radius: 350px 350px 350px 350px;
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.4);
+    padding: 20px 35px 20px 35px;
+    text-decoration: none;
+    position: relative;
+    top: 50%;
+
+
+}
+
+.stapp_button:hover {
+    fill: #7FFFD4;
+    color: #7FFFD4;
+    -webkit-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+    transform: scale(0.9);
+    box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.4);
+}
+
+
+[role=button] {
+    cursor: pointer;
+}
